@@ -1,0 +1,11 @@
+<?php 
+require_once("../app/vistas/public/template/page.class.php");
+Page::templateHeader("Inicio");
+require_once("../app/vistas/public/slider/slider_inicio.php");
+require_once("../app/vistas/public/inicio/index.php");
+require_once("../app/controllers/public/producto/marca_controller.php");
+require_once("../app/vistas/public/parallax/parallax_secundario.php");
+require_once("../app/controllers/public/account/registrar_controller.php");
+Page::Modales();
+Page::templateFooter();
+?>
